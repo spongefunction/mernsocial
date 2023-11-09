@@ -1,0 +1,22 @@
+{
+  "name": "mernsocial",
+  "version": "1.0.0",
+  "description": "a social network site built with MongoDB, Express.js, React.js and Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spongefunction/mernsocial.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "spongefunction",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spongefunction/mernsocial/issues"
+  },
+  "homepage": "https://github.com/spongefunction/mernsocial#readme"
+}
