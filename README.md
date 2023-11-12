@@ -2,6 +2,8 @@
 
 link: https://www.youtube.com/watch?v=ldGl6L4Vktk
 
-progress: 21:42
+progress: 1:05:22
 
-curent practice: testing with Postman
+curent practice: creating the post router
+
+Run ‘npm start’ and have fun.

@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// when create user, only required username, email, password and fields with default value will be created.
 const UserSchema = new mongoose.Schema({
     username: {
         type: String,
@@ -39,6 +40,22 @@ const UserSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     },
+    desc: {
+        type: String,
+        max: 50
+    },
+    city: {
+        type: String,
+        max: 50
+    },
+    from: {
+        type: String,
+        max: 50
+    },
+    relationship: {
+        type: Number,
+        enum: [1, 2, 3] // 1: single, 2: married, 3: complicated
+    }
 }, { timestamps: true });
 
 module.exports = mongoose.model('User', UserSchema);
